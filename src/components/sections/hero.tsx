@@ -83,11 +83,11 @@ export function HeroSection() {
               size="lg"
               className="group border-border/60 bg-background/50 backdrop-blur-sm px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-medium hover:bg-background/80 hover:border-primary/50 transition-all duration-300 w-full sm:w-auto"
             >
-              <Link href={`${siteConfig.links.email}`}>
+              <a href={siteConfig.links.email}>
                 Get in Touch
 
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Link>
+              </a>
             </Button>
           </motion.div>
         </motion.div>
